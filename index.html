@@ -20,9 +20,38 @@
 		.font1:hover { background-color: black; color: white; }
 		.font2:hover { background-color: black; color: white; }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 	</style>
 </head>
 <body>
+	<div class="navbar">
+  <a href="#home">台中市</a>
+  <a href="#news">台中國家歌劇院</a>
+  <a href="#contact">台中州廳</a>
+  <a href="#contact">審計新村</a>
+</div>
 
 <div class="container">
 
@@ -35,7 +64,7 @@
 	</tr>
 	<tr>
 		<td colspan="2">
-			<img class="img2" src="00.jpeg">
+			<img id="t1" class="img2" src="00.jpeg">
 		</td>
 
 	</tr>
@@ -52,7 +81,7 @@
 	</tr>
 	<tr>
 		<td>
-			<img class="img1" src="01.jpeg">
+			<img id="t2" class="img1" src="01.jpeg">
 		</td>
 		<td>
 			<font class="font2">台中國家歌劇院</font>
@@ -75,12 +104,12 @@
 
 		</td>
 		<td>
-			<img class="img1" src="02.jpeg">
+			<img id="t3" class="img1" src="02.jpeg">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img class="img1" src="03.jpeg">
+			<img id="t4" class="img1" src="03.jpeg">
 		</td>
 		<td>
 			<font class="font2">審計新村</font>
@@ -91,6 +120,21 @@
             所在位置：台中市西區民生路368巷
 		</td>
 	</tr>
+
+
+	<tr>
+		<td colspan="2"
+			<br>
+			<br>
+		   <iframe src="https://www.google.com/maps/d/embed?mid=1que7etUOi_Xj1bvFmUQPUQkoNwLcopw&ehbc=2E312F" width="1024" height="600"></iframe>
+		    <br>
+		    <br>
+		</td>
+		
+		
+	</tr>
+
+
 	<tr>
 		<td colspan="2" style="background-color: gray; color: white; ">
 			<br>
